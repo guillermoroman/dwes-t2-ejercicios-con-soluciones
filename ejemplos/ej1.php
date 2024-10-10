@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
+
     <?php echo "<h1>hola, mundo!</h1>" ?>
-    </h1>
+
 
     <?php
         $variable = 5;
