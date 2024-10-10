@@ -17,7 +17,7 @@ function reverseString($str){
     if($len == 1){
         return $str;
     } else {
-        return reverseString(substr($str, 1, $len -)) . (substr($str, 0, 1));
+        return reverseString(substr($str, 1, $len -1)) . (substr($str, 0, 1));
     }
 }
 $palabra = "servidor";
